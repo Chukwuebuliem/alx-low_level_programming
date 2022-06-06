@@ -9,17 +9,19 @@
 */
 int main(void)
 {
-	char a = 'a';
-	char b = 'A';
+	int a = 97;
+	int b = 65;
 
-	do {
+	while (a < 123)
+	{
 		putchar(a);
 		a++;
-	} while (a <= 'z');
-	do {
+	}
+	while (b < 91)
+	{
 		putchar(b);
 		b++;
-	} while (b <= 'z');
-	putchar('\n');
+	}
+	putchar(10);
 	return (0);
 }
