@@ -17,6 +17,7 @@ print_alphabet_x10(void)
 		{
 			_putchar(d);
 		}
+		_putchar(c);
 	}
 	return (0);
 }
