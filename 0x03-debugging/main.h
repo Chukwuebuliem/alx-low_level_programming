@@ -7,7 +7,6 @@ void positive_or_negative(int i);
 
 #endif /* MAIN_H */
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - prints the largest of 3 integers
@@ -23,7 +22,7 @@ int main(void)
 	b = -98;
 	c = 0;
 
-	largest = largest_number(a, b, c);
+	largest = a, b, c;
 	printf("%d is the largest number\n", largest);
 	return (0);
 }
