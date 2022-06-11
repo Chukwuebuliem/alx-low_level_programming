@@ -13,17 +13,15 @@ int largest_number(int a, int b, int c)
 
 	if (a > b && a > c)
 	{
-		printf("%d is the largest_number\n", largest);
+		a = largest;
 	}
 	else if (b > a && b > c)
 	{
-		printf("%d is the largest_number\n", largest);
+		b = largest;
 	}
 	else
 	{
-		printf("%d is the largest_number\n", largest);
+		c = largest;
 	}
-	return (0);
+	return (largest);
 }
-
-
