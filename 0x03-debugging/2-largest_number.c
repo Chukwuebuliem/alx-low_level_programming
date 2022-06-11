@@ -23,5 +23,6 @@ int largest_number(int a, int b, int c)
 	{
 		c = largest;
 	}
-	return (largest);
+	_putchar(largest);
+	return (0);
 }
